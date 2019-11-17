@@ -19,3 +19,4 @@ N: Clears the canvas so a new wheel configuration can be made
 
 The algorithm adds to the existing swerve math by making the wheels farther from the centroid have a proportionally faster turning-vector than the wheel closest to the centroid. Everything is then normalized to an output between 0 and 1 while preserving the proportions.
 
+This algorithm was used to find the centroid https://en.wikipedia.org/wiki/Centroid#Of_a_polygon
